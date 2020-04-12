@@ -5,6 +5,9 @@
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
 
+# About the Project
+This is one of the milestone projects in the Deep Learning Nanodegree from Udacity. The goal of the notebook is to create an algorithm that classifies an image as a dog or human. After classifying the image, the algorithm uses one of the neural networks to classify a dog breed to the image, regardless if it'S classified as a dog or human. Most of the code was provided by Udacity, but the convolutional layer classification was integrated by me. The Jupyter notebook dog_app.ipynb contains the following topics: creating convolutional layer from scratch and using a pretrained vgg16 for transfer learning to improve the classification of dog breeds. 
+
 ## Project Overview
 
 Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
